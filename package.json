@@ -1,16 +1,16 @@
 {
-  "_from": "nodebb-plugin-sso-linkedin-oauth2",
-  "_id": "nodebb-plugin-sso-linkedin-oauth2@0.3.1",
+  "_from": "nodebb-plugin-sso-linkedin-v2",
+  "_id": "nodebb-plugin-sso-linkedin-v2@0.3.1",
   "_inBundle": false,
   "_integrity": "sha1-bRcQo1gFlhgtDCK3sW9gYFHV0FQ=",
-  "_location": "/nodebb-plugin-sso-linkedin-oauth2",
+  "_location": "/nodebb-plugin-sso-linkedin-v2",
   "_phantomChildren": {},
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "nodebb-plugin-sso-linkedin-oauth2",
-    "name": "nodebb-plugin-sso-linkedin-oauth2",
-    "escapedName": "nodebb-plugin-sso-linkedin-oauth2",
+    "raw": "nodebb-plugin-sso-linkedin-v2",
+    "name": "nodebb-plugin-sso-linkedin-v2",
+    "escapedName": "nodebb-plugin-sso-linkedin-v2",
     "rawSpec": "",
     "saveSpec": null,
     "fetchSpec": "latest"
@@ -19,25 +19,25 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/nodebb-plugin-sso-linkedin-oauth2/-/nodebb-plugin-sso-linkedin-oauth2-0.3.1.tgz",
+  "_resolved": "https://registry.npmjs.org/nodebb-plugin-sso-linkedin-v2/-/nodebb-plugin-sso-linkedin-v2-0.3.1.tgz",
   "_shasum": "6d1710a3580596182d0c22b7b16f606051d5d054",
-  "_spec": "nodebb-plugin-sso-linkedin-oauth2",
+  "_spec": "nodebb-plugin-sso-linkedin-v2",
   "_where": "C:\\Projects",
   "author": {
-    "name": "Joseph Chen",
-    "email": "joseph.chen@gmail.com"
+    "name": "Vardan Avetisyan",
+    "email": "avetisyan@gmail.com"
   },
   "bugs": {
-    "url": "https://github.com/joe1chen/nodebb-plugin-sso-linkedin-oauth2/issues"
+    "url": "https://github.com/avetisyan/nodebb-plugin-sso-linkedin-oauth2/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
-    "passport-linkedin-oauth2": "^2.0.0"
+    "passport-linkedin-oauth2-special": "^2.0.0"
   },
   "deprecated": false,
   "description": "NodeBB LinkedIn SSO OAuth2",
   "devDependencies": {},
-  "homepage": "https://github.com/joe1chen/nodebb-plugin-sso-linkedin-oauth2",
+  "homepage": "https://github.com/avetisyan/nodebb-plugin-sso-linkedin-oauth2",
   "keywords": [
     "nodebb",
     "plugin",
@@ -48,13 +48,13 @@
   ],
   "license": "MIT",
   "main": "library.js",
-  "name": "nodebb-plugin-sso-linkedin",
+  "name": "nodebb-plugin-sso-linkedin-v2",
   "nbbpm": {
-    "compatibility": "^1.7.1"
+    "compatibility": "^1.13.1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joe1chen/nodebb-plugin-sso-linkedin-oauth2.git"
+    "url": "git+https://github.com/avetisyan/nodebb-plugin-sso-linkedin-oauth2.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
