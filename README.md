@@ -6,7 +6,7 @@ Based on https://github.com/joe1chen/nodebb-plugin-sso-linkedin-oauth2
 
 ## Installation
 
-    npm install nodebb-plugin-sso-linkedin-oauth2
+    npm install nodebb-plugin-sso-linkedin-v2
 
 ## Configuration
 

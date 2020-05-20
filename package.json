@@ -50,7 +50,7 @@
   "main": "library.js",
   "name": "nodebb-plugin-sso-linkedin-v2",
   "nbbpm": {
-    "compatibility": "^1.13.1"
+    "compatibility": "^1.7.1"
   },
   "repository": {
     "type": "git",
@@ -59,5 +59,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "0.3.5"
+  "version": "0.3.6"
 }
