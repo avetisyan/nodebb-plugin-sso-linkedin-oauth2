@@ -5,7 +5,7 @@
 		meta = require.main.require('./src/meta'),
 		db = require.main.require('./src/database'),
 		passport = require.main.require('passport'),
-		passportLinkedIn = require('passport-linkedin-oauth2').Strategy,
+		passportLinkedIn = require.main.require('passport-linkedin-oauth2-special').Strategy,
 		nconf = require.main.require('nconf'),
 		async = require.main.require('async'),
 		winston = require.main.require('winston');
