@@ -2,6 +2,8 @@
 
 NodeBB Plugin that allows users to login/register via their LinkedIn account.
 
+Based on https://github.com/joe1chen/nodebb-plugin-sso-linkedin-oauth2
+
 ## Installation
 
     npm install nodebb-plugin-sso-linkedin-oauth2

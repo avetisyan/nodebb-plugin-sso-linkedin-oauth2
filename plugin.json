@@ -1,14 +1,26 @@
 {
-	"id": "nodebb-plugin-sso-linkedin-oauth2",
+	"id": "nodebb-plugin-sso-linkedin-v2",
 	"name": "NodeBB LinkedIn SSO OAuth2",
 	"description": "NodeBB Plugin that allows users to login/register via their LinkedIn account.",
-	"url": "https://github.com/joe1chen/nodebb-plugin-sso-linkedin-oauth2",
+	"url": "https://github.com/avetisyan/nodebb-plugin-sso-linkedin-oauth2",
 	"library": "./library.js",
 	"templates": "templates",
 	"hooks": [
 		{ "hook": "static:app.load", "method": "init" },
+		{ "hook": "filter:config.get", "method": "exposeSettings" },
+		{ "hook": "filter:auth.list", "method": "getAssociation" },
 		{ "hook": "filter:auth.init", "method": "getStrategy" },
 		{ "hook": "filter:admin.header.build", "method": "addMenuItem" },
-	  	{ "hook": "filter:user.delete", "method": "deleteUserData" }
-	]
+		{ "hook": "static:user.delete", "method": "deleteUserData" },
+		{ "hook": "filter:user.whitelistFields", "method": "appendUserHashWhitelist" }
+	],
+	"acpScripts": [
+		"static/lib/admin.js"
+	],
+	"scripts": [
+		"static/lib/main.js"
+	],
+	"staticDirs": {
+		"images": "static/images"
+	}
 }
