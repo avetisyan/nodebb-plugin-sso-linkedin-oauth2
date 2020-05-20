@@ -24,7 +24,7 @@
 				<li>Save and restart NodeBB via the ACP Dashboard</li>
 			</ol>
 		</div>
-		<form role="form" class="sso-linkedin-settings">
+		<form role="form" class="sso-linkedin-v2-settings">
 			<div class="form-group">
 				<label for="id">Client ID</label>
 				<input id="id" type="text" name="id" title="Client ID" class="form-control input-lg" placeholder="Client ID">
